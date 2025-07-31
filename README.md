@@ -52,6 +52,17 @@ This project explores the reasons behind patients missing their scheduled medica
 
 📝 Full SQL queries available in the [`queries/`](./queries) folder.
 
+
+## 📊  Key Insights ← ✅ Place it here!
+Buraya içgörülerimizi ekleyeceğim !
+
+
+##  📦 Tools Used
+
+*-PostgreSQL
+- SQL Window Functions, Filters, Views
+-  Tableau and Looker Studio for dashboards
+
 ---
 
 
