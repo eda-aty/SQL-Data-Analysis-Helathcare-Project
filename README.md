@@ -13,6 +13,15 @@ With this project I will try to analyze key factors such as age, gender, medical
   - `'Yes'` → Patient did **not** show up  
   - `'No'` → Patient attended
 
+##  📦 Tools Used
+
+*-PostgreSQL
+- SQL Window Functions, Filters, Views
+-  Tableau and Looker Studio for dashboards
+
+---
+
+
 ### 🔍 Key Columns
 
 | Column           | Description                              |
@@ -56,20 +65,24 @@ With this project I will try to analyze key factors such as age, gender, medical
 ## 📊  Key Insights 
 
 1. 📉 Overall No-Show Rate
+   
 Approximately 20.19% of patients miss their appointments.  That's 1 in 5 patients. That means approximately 1 in 5 appointments are missed. of scheduled medical appointments were missed.
 ➕ The reasons for this can be investigated in more detail. A root cause analysis can be conducted by conducting a survey using automated phone calls to those who do not show up for their appointments.
 
-2. 👩‍⚕️👨‍⚕️ Gender  & No-Show Behavior
+3. 👩‍⚕️👨‍⚕️ Gender  & No-Show Behavior
+   
 Women had more total appointments than men.
 However, women no-show rates more than very similar across genders.
 ➕ Even though Gender strongly influence tcount of  appointments no show rates very similar across genders.
 
 4. ⏱️ Waiting Time Between Scheduling & Appointment
+   
 The average waiting time for attended appointments is 14 days, while the average waiting time for unattended appointments is 16 days.
 The group that does not show up for their appointment waits an average of 2 days longer.
 ➕ Criteria can be determined for detailed investigation of how the average waiting time affects whether or not to attend an appointment.
 
 6. 📆 Day of the Week Impact
+   
 Wednesday was the day with the most appointment registrations, with 20.774 and it is the day with the highest number of appointments booked. Saturday was the day with the fewest appointments booked.
 
 8. ⚕️ No Show rate  by Medical Conditions 
@@ -79,20 +92,25 @@ Patients with diabetes also have a lower no-show rate (18.00%) than those withou
 
 
 6. 📲 SMS Reminder Effectiveness
+   
 Surprisingly, patients who received SMS reminders had a significantly higher no-show rate than those who did not receive SMS reminders.
 
 8. 👶👵👨‍🦱 Age Distribution & Attendance
+   
 0–18 Age Group has the highest number of appointments (28,866), which may reflect:
 60+ Age Group has the lowest number of appointments (19,763), although they typically require more care.
 ➕ This might suggest access issues, mobility problems, or fewer scheduled appointments due to other reasons.So , this details are so important for for sales and marketing planning.
 
-##  📦 Tools Used
+## 🎓 What I Learned
 
-*-PostgreSQL
-- SQL Window Functions, Filters, Views
--  Tableau and Looker Studio for dashboards
+- Data cleaning and preprocessing (datetime, missing values, renaming), age grouping with SQL
 
----
+- EDA practice with PostgreSQL
+
+- Data-driven analysis on the impact of SMS reminders
+  
+
+
 
 
 
